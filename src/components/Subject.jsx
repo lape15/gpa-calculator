@@ -14,7 +14,7 @@ const Subject = ({ courses }) => {
     <div className="box">
       {gp > 0 ? (
         <div className="gp-box">
-          <b>Your GPA</b>
+          <b>Your CGPA</b>
           <span>{gp.toFixed(2)}</span>
         </div>
       ) : null}

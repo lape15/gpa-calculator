@@ -8,7 +8,7 @@ const Header = () => {
         <img src={logo} alt="logo" />{" "}
       </div>
       <div className="new-course">
-        <div className="span-course">Add Course</div>
+        <div className="span-course">4-point CGPA grading system</div>
       </div>
     </header>
   );

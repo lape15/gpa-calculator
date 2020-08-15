@@ -12,8 +12,8 @@ header {
   max-height: 95px;
   box-shadow: 0 5px 15px -10px rgba(0, 0, 0, 0.25);
   z-index: 100;
-  background: #ff3e3e;
-  color: #fff;
+  background-color: #bee6ce;
+  color: #074c30;
   margin-bottom: 5px;
 }
 
@@ -27,7 +27,7 @@ header {
   text-align: right;
   padding-right: 25px;
   font-family: "Comic Neue", cursive;
-  font-size: 2rem;
+  font-size: 1.5rem;
   letter-spacing: 1px;
 }
 .new-course > .span-course {
@@ -101,14 +101,14 @@ label {
   margin-bottom: 5px;
   text-align: left;
   transform: translateY(14px);
-  color: rgba(150, 44, 44, 0.5);
+  color: rgba(190, 230, 206, 0.6);
   transition: all ease-out 0.1s;
 }
 
 .shrink {
   transform: translateY(0px);
   font-size: 12px;
-  color: #ff3e3e;
+  color: #074c30;
   transition: all ease-in 0.1s;
 }
 
@@ -130,10 +130,11 @@ input {
 }
 
 .busy {
-  border-bottom: 1px solid #ff3e3e;
+  border-bottom: 1px solid #074c30;
 }
 button {
-  background: rgba(255, 62, 62, 0.7);
+  /* background: rgba(255, 62, 62, 0.7); */
+  background: rgb(7, 76, 48);
   color: #fff;
   border-radius: 2px;
   margin-bottom: 20px;
@@ -142,7 +143,7 @@ button {
   outline: none;
   height: 35px;
   letter-spacing: 1px;
-  border: 1px solid rgba(255, 62, 62, 0.4);
+  border: 1px solid rgb(7, 76, 48);
   font-family: "Roboto", sans-serif;
   cursor: pointer;
 }
@@ -159,7 +160,7 @@ button {
   font-size: 0.8rem;
 }
 .box > .gp-box > span {
-  color: #93e185;
+  color: #074c30;
   font-size: 5rem;
   font-family: "Comic Neue", cursive;
 }
@@ -185,7 +186,7 @@ button {
   display: inline-flex;
   justify-content: center;
   align-items: left;
-  background: rgba(255, 62, 62, 0.7);
+  background: #bee6ce;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   color: #fff;
@@ -198,7 +199,7 @@ button {
   font-family: "Roboto", sans-serif;
   font-size: 1rem;
   letter-spacing: 1px;
-  color: #fff;
+  color: #074c30;
   padding: 5px;
 }
 
@@ -206,26 +207,26 @@ button {
   height: 100%;
   padding: 15px 0 0 5px;
   overflow-y: scroll;
-  scrollbar-color: #ff3e3e rgba(255, 62, 62, 0.2);
+  scrollbar-color: #bee6ce rgba(190, 230, 206, 0.6);
   scrollbar-width: thin;
 }
 
 .courses-box > .item-box::-webkit-scrollbar {
   width: 5px;
-  background-color: rgba(255, 62, 62, 0.2);
+  background-color: rgba(190, 230, 206, 0.6);
   border-radius: 6px;
 }
 .courses-box > .item-box::-webkit-scrollbar-thumb {
-  background-color: #ff3e3e;
+  background-color: #bee6ce;
   border-radius: 6px;
 }
 .courses-box > .item-box::-moz-scrollbar {
   width: 5px;
-  background-color: rgba(255, 62, 62, 0.2);
+  background-color: rgba(190, 230, 206, 0.6);
   border-radius: 6px;
 }
 .courses-box > .item-box::-moz-scrollbar-thumb {
-  background-color: #ff3e3e;
+  background-color: #bee6ce;
   border-radius: 6px;
 }
 .course {
@@ -238,7 +239,7 @@ button {
   font-weight: 300;
   transition: all 0.3s;
   letter-spacing: 1px;
-  border-bottom: 1px solid rgba(255, 62, 62, 0.2);
+  border-bottom: 1px solid rgba(190, 230, 206, 0.6);
   box-shadow: none;
   cursor: pointer;
   color: #1a1a1a;
