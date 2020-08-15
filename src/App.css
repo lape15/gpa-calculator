@@ -101,7 +101,7 @@ label {
   margin-bottom: 5px;
   text-align: left;
   transform: translateY(14px);
-  color: rgba(190, 230, 206, 0.6);
+  color: grey;
   transition: all ease-out 0.1s;
 }
 
