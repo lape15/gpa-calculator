@@ -132,6 +132,7 @@ input {
 .busy {
   border-bottom: 1px solid #074c30;
 }
+
 button {
   /* background: rgba(255, 62, 62, 0.7); */
   background: rgb(7, 76, 48);
@@ -146,6 +147,10 @@ button {
   border: 1px solid rgb(7, 76, 48);
   font-family: "Roboto", sans-serif;
   cursor: pointer;
+}
+.random > button {
+  padding: 10px 25px;
+  height: 40px;
 }
 
 .box {
