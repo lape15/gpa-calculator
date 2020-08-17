@@ -32,7 +32,7 @@ const Subject = ({ courses }) => {
               return (
                 <div className="course" key={index}>
                   <div className="value">
-                    <b>Title:</b>
+                    <b>Course:</b>
                     {course.course}
                   </div>
                   <div className="value">
